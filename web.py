@@ -13,7 +13,7 @@ def init_driver():
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_experimental_option("detach", True)
     chrome_options.add_argument(
-        r"user-data-dir=C:\Users\Deep\AppData\Local\Google\Chrome\User Data")  # Replace with your Chrome user data directory
+        r"user-data-dir=C:# Replace with your Chrome user data directory")  # Replace with your Chrome user data directory
     driver = webdriver.Chrome(options=chrome_options)
     return driver
 
