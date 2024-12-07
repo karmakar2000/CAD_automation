@@ -116,7 +116,7 @@ def main():
         print(f"City '{city_name}' not found.")
         return
 
-    start_url = f"https://www.realtor.ca/map#ZoomLevel={city_coordinates['ZoomLevel']}&Center={city_coordinates['CenterLat']}%2C{city_coordinates['CenterLon']}&LatitudeMax={city_coordinates['LatitudeMax']}&LongitudeMax={city_coordinates['LongitudeMax']}&LatitudeMin={city_coordinates['LatitudeMin']}&LongitudeMin={city_coordinates['LongitudeMin']}&CurrentPage=1&Sort=6-D&PropertyTypeGroupID=1&PropertySearchTypeId=0&TransactionTypeId=3&Currency=CAD"
+    start_url = f""
     driver = init_driver()
     driver.get(start_url)
     results = []
